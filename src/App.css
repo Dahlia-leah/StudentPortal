@@ -1,0 +1,80 @@
+/* src/App.css */
+body {
+  background-image: url('./85215.jpg') ;
+  background-size: cover;
+
+}
+
+.app-container {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+  }
+  
+  .home-container, .upload-container, .archive-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title, .description {
+    text-align: center;
+  }
+  
+  .nav-links {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #007BFF;
+  }
+  
+  .preview-table {
+    margin-top: 20px;
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    text-align: center;
+
+  }
+  
+  table, th, td {
+    border: 1px solid #020202;
+    border-bottom: 1px solid #020202;
+
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: center;
+    background-color: #dedbdb;
+
+  }
+  
+  th {
+    background-color: #c1c0c0;
+    text-align: center;
+
+  }
+  
+  p {
+    line-height: 3; /* Increase the line spacing between paragraphs */
+  }

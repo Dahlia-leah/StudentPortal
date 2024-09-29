@@ -1,0 +1,28 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false
+  },
+  "database": {
+    "rules": {
+      ".read": false,
+      ".write": false
+    }
+  },
+  
+  "hosting": {
+    "site": "studentportaldl",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
