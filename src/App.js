@@ -4,7 +4,10 @@ import StudentPage from "./components/StudentPage";
 import LoginPage from "./components/LoginPage";
 import AdminDashboard from "./components/AdminDashboard";
 import ArchivePage from "./components/ArchivePage";
-import { AuthProvider, PrivateRoute } from "./components/Auth";
+import PrivateRoute from "./components/PrivateRoute";
+import { AuthProvider } from "./components/AuthContext";
+
+
 import './App.css'
 const App = () => {
   return (
